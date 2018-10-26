@@ -1,0 +1,126 @@
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "copy_dir_structure.py", line 22, in copy
+    shutil.copytree(src, dest)
+  File "/anaconda3/lib/python3.7/shutil.py", line 359, in copytree
+    raise Error(errors)
+shutil.Error: [('/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5', '/Users/yuliasukonkina/Desktop/training/target/directory1/test.hdf5', "[Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'")]
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/a.txt'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/target/a.txt'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/a.txt'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/target/a.txt'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'

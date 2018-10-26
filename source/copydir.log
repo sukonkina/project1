@@ -1,0 +1,14 @@
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "copy_dir_structure.py", line 10, in copy
+    shutil.copytree(src, dest)
+  File "/anaconda3/lib/python3.7/shutil.py", line 359, in copytree
+    raise Error(errors)
+shutil.Error: [('/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5', '/Users/yuliasukonkina/Desktop/training/target/directory1/test.hdf5', "[Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'"), ('/Users/yuliasukonkina/Desktop/training/source/a.txt', '/Users/yuliasukonkina/Desktop/training/target/a.txt', "[Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/a.txt'"), ('/Users/yuliasukonkina/Desktop/training/source/test.hdf5', '/Users/yuliasukonkina/Desktop/training/target/test.hdf5', "[Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/test.hdf5'"), ('/Users/yuliasukonkina/Desktop/training/source/dir1/dir2/dir3/b.txt', '/Users/yuliasukonkina/Desktop/training/target/dir1/dir2/dir3/b.txt', "[Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/dir1/dir2/dir3/b.txt'")]
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "copy_dir_structure.py", line 10, in copy
+    shutil.copytree(src, dest)
+  File "/anaconda3/lib/python3.7/shutil.py", line 359, in copytree
+    raise Error(errors)
+shutil.Error: [('/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5', '/Users/yuliasukonkina/Desktop/training/target/directory1/test.hdf5', "[Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'"), ('/Users/yuliasukonkina/Desktop/training/source/a.txt', '/Users/yuliasukonkina/Desktop/training/target/a.txt', "[Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/a.txt'"), ('/Users/yuliasukonkina/Desktop/training/source/test.hdf5', '/Users/yuliasukonkina/Desktop/training/target/test.hdf5', "[Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/test.hdf5'"), ('/Users/yuliasukonkina/Desktop/training/source/dir1/dir2/dir3/b.txt', '/Users/yuliasukonkina/Desktop/training/target/dir1/dir2/dir3/b.txt', "[Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/dir1/dir2/dir3/b.txt'")]
