@@ -24,8 +24,8 @@ def folder_diff(folder1_path, folder2_path):
     diff.extend([item for item in folder2_list if item not in folder1_list])
     return diff
 
-folder_diff("/Users/yuliasukonkina/Desktop/training/source", "/Users/yuliasukonkina/Desktop/training/target")
-print(return diff)
+folder_diff('/Users/yuliasukonkina/Desktop/training/source', '/Users/yuliasukonkina/Desktop/training/target')
+print('hello')
 """
 import os
 
