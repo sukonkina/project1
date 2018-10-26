@@ -124,3 +124,10 @@ Traceback (most recent call last):
   File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
     with open(filepath, 'rb') as fp:
 PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
+ERROR:root:Exception occurred
+Traceback (most recent call last):
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
+    sha = filehash(fpath)
+  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
+    with open(filepath, 'rb') as fp:
+PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/b/8.hdf5'
