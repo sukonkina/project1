@@ -1,133 +1,169 @@
+INFO:root:Working in /Users/yuliasukonkina/Desktop/training/source/
+INFO:root:Working in /Users/yuliasukonkina/Desktop/training/source/a
+INFO:root:Working in /Users/yuliasukonkina/Desktop/training/source/a/a1
+INFO:root:Working in /Users/yuliasukonkina/Desktop/training/source/c
+INFO:root:Working in /Users/yuliasukonkina/Desktop/training/source/b
+INFO:root:Working in /Users/yuliasukonkina/Desktop/training/source/b/b2
+INFO:root:Working in /Users/yuliasukonkina/Desktop/training/source/b/b1
+INFO:root:Working in /Users/yuliasukonkina/Desktop/training/source/b/b1/b11
 ERROR:root:Exception occurred
 Traceback (most recent call last):
-  File "copy_dir_structure.py", line 22, in copy
-    shutil.copytree(src, dest)
+  File "/Users/yuliasukonkina/Desktop/training/programm/copy_dir_structure.py", line 35, in copy
+    shutil.copytree(src, dest, ignore=_logpath)
   File "/anaconda3/lib/python3.7/shutil.py", line 359, in copytree
     raise Error(errors)
-shutil.Error: [('/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5', '/Users/yuliasukonkina/Desktop/training/target/directory1/test.hdf5', "[Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'")]
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/a.txt'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/target/a.txt'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/a.txt'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/target/a.txt'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/directory1/test.hdf5'
-ERROR:root:Exception occurred
-Traceback (most recent call last):
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 46, in hashdeep
-    sha = filehash(fpath)
-  File "/Users/yuliasukonkina/Desktop/training/programm/hashdeep.py", line 23, in filehash
-    with open(filepath, 'rb') as fp:
-PermissionError: [Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/b/8.hdf5'
+shutil.Error: [('/Users/yuliasukonkina/Desktop/training/source/c/8.hdf5', '/Users/yuliasukonkina/Desktop/training/target/c/8.hdf5', "[Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/c/8.hdf5'"), ('/Users/yuliasukonkina/Desktop/training/source/b/8.hdf5', '/Users/yuliasukonkina/Desktop/training/target/b/8.hdf5', "[Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/b/8.hdf5'")]
+++++++++++++++++++++++Insure the dir is not there, else RSYNC
+/Users/yuliasukonkina/Desktop/training/target LOOKING FOR THE DIRECTORY
+using COPYTREE
+e.errno = None
+Directory not copied. Error: [('/Users/yuliasukonkina/Desktop/training/source/c/8.hdf5', '/Users/yuliasukonkina/Desktop/training/target/c/8.hdf5', "[Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/c/8.hdf5'"), ('/Users/yuliasukonkina/Desktop/training/source/b/8.hdf5', '/Users/yuliasukonkina/Desktop/training/target/b/8.hdf5', "[Errno 13] Permission denied: '/Users/yuliasukonkina/Desktop/training/source/b/8.hdf5'")]
+----------------------Finished copying
+----------------------Comparing the two directories/subdir function
+diff /Users/yuliasukonkina/Desktop/training/source/ /Users/yuliasukonkina/Desktop/training/target/
+Identical files : ['%5.php', "'5%5 copy.php", '.DS_Store', '1.php', '2.php', '3.php', '4.', '4.php', '4.txt', '5%5.php', '5.log', '5_5.php', '6.txt']
+Common subdirectories : ['a', 'b', 'c']
+
+diff /Users/yuliasukonkina/Desktop/training/source/a /Users/yuliasukonkina/Desktop/training/target/a
+Identical files : ['.DS_Store']
+Common subdirectories : ['a1']
+
+diff /Users/yuliasukonkina/Desktop/training/source/a/a1 /Users/yuliasukonkina/Desktop/training/target/a/a1
+Identical files : ['1.txt', '2.txt', '3.hdf5']
+
+diff /Users/yuliasukonkina/Desktop/training/source/b /Users/yuliasukonkina/Desktop/training/target/b
+Only in /Users/yuliasukonkina/Desktop/training/source/b : ['8.hdf5']
+Common subdirectories : ['b1', 'b2']
+
+diff /Users/yuliasukonkina/Desktop/training/source/b/b1 /Users/yuliasukonkina/Desktop/training/target/b/b1
+Identical files : ['5.hdf5', '6.txt']
+Common subdirectories : ['b11']
+
+diff /Users/yuliasukonkina/Desktop/training/source/b/b1/b11 /Users/yuliasukonkina/Desktop/training/target/b/b1/b11
+Identical files : ['5.hdf5']
+
+diff /Users/yuliasukonkina/Desktop/training/source/b/b2 /Users/yuliasukonkina/Desktop/training/target/b/b2
+Identical files : ['9.txt']
+
+diff /Users/yuliasukonkina/Desktop/training/source/c /Users/yuliasukonkina/Desktop/training/target/c
+Only in /Users/yuliasukonkina/Desktop/training/source/c : ['8.hdf5']
+----------------------Calculating hashes of SOURCE
+standard output of subprocess:
+b"e6d3301ea2a9b253ce3662b60fa5a04e  /Users/yuliasukonkina/Desktop/training/source/'5%5 copy.php\nf26ec4bf83f77214e0a27d34813864b9  /Users/yuliasukonkina/Desktop/training/source/5.log\n10e6884a293dedcb125403f38e785840  /Users/yuliasukonkina/Desktop/training/source/.DS_Store\nd41d8cd98f00b204e9800998ecf8427e  /Users/yuliasukonkina/Desktop/training/source/4.\ne6d3301ea2a9b253ce3662b60fa5a04e  /Users/yuliasukonkina/Desktop/training/source/5%5.php\nd0e19556beab045aa2c689bb6ea7ff0c  /Users/yuliasukonkina/Desktop/training/source/a/.DS_Store\n6781e0baec8d65b9a95a3e879a5098d1  /Users/yuliasukonkina/Desktop/training/source/a/a1/3.hdf5\n1514e6e20c14b144729bc997003ceba5  /Users/yuliasukonkina/Desktop/training/source/a/a1/2.txt\n1514e6e20c14b144729bc997003ceba5  /Users/yuliasukonkina/Desktop/training/source/a/a1/1.txt\n6bafe6ccfd4708e63a16c64639d91ab3  /Users/yuliasukonkina/Desktop/training/source/4.txt\n212cd2792007e2c3f29b1c1360f2e56f  /Users/yuliasukonkina/Desktop/training/source/%5.php\n1514e6e20c14b144729bc997003ceba5  /Users/yuliasukonkina/Desktop/training/source/6.txt\n1dc25fd89e783276757e4ce816e62e76  /Users/yuliasukonkina/Desktop/training/source/4.php\n9c3f16a06c44b74a0962363a9204af96  /Users/yuliasukonkina/Desktop/training/source/5_5.php\nd41d8cd98f00b204e9800998ecf8427e  /Users/yuliasukonkina/Desktop/training/source/2.php\nd8e8fca2dc0f896fd7cb4cb0031ba249  /Users/yuliasukonkina/Desktop/training/source/3.php\ndeb7f47cf223b0d29a5bfe65cd2dd987  /Users/yuliasukonkina/Desktop/training/source/b/b2/9.txt\n6781e0baec8d65b9a95a3e879a5098d1  /Users/yuliasukonkina/Desktop/training/source/b/b1/b11/5.hdf5\n8e013e9e7f10ef9e6bb3c1286519ad46  /Users/yuliasukonkina/Desktop/training/source/b/b1/6.txt\n6781e0baec8d65b9a95a3e879a5098d1  /Users/yuliasukonkina/Desktop/training/source/b/b1/5.hdf5\n8d9da4645df8f6b8c60f1092f80a7c46  /Users/yuliasukonkina/Desktop/training/source/1.php\n"
+standard error of subprocess:
+b'/Users/yuliasukonkina/Desktop/training/source/c/8.hdf5: Permission denied\n/Users/yuliasukonkina/Desktop/training/source/b/8.hdf5: Permission denied\n'
+returncode of subprocess:
+0
+----------------------Calculating hashes of TARGET
+standard output of subprocess:
+b"f26ec4bf83f77214e0a27d34813864b9  /Users/yuliasukonkina/Desktop/training/target/5.log\n10e6884a293dedcb125403f38e785840  /Users/yuliasukonkina/Desktop/training/target/.DS_Store\ne6d3301ea2a9b253ce3662b60fa5a04e  /Users/yuliasukonkina/Desktop/training/target/'5%5 copy.php\ne6d3301ea2a9b253ce3662b60fa5a04e  /Users/yuliasukonkina/Desktop/training/target/5%5.php\nd41d8cd98f00b204e9800998ecf8427e  /Users/yuliasukonkina/Desktop/training/target/4.\nd0e19556beab045aa2c689bb6ea7ff0c  /Users/yuliasukonkina/Desktop/training/target/a/.DS_Store\n6781e0baec8d65b9a95a3e879a5098d1  /Users/yuliasukonkina/Desktop/training/target/a/a1/3.hdf5\n1514e6e20c14b144729bc997003ceba5  /Users/yuliasukonkina/Desktop/training/target/a/a1/2.txt\n1514e6e20c14b144729bc997003ceba5  /Users/yuliasukonkina/Desktop/training/target/a/a1/1.txt\n212cd2792007e2c3f29b1c1360f2e56f  /Users/yuliasukonkina/Desktop/training/target/%5.php\n6bafe6ccfd4708e63a16c64639d91ab3  /Users/yuliasukonkina/Desktop/training/target/4.txt\n9c3f16a06c44b74a0962363a9204af96  /Users/yuliasukonkina/Desktop/training/target/5_5.php\n1514e6e20c14b144729bc997003ceba5  /Users/yuliasukonkina/Desktop/training/target/6.txt\n1dc25fd89e783276757e4ce816e62e76  /Users/yuliasukonkina/Desktop/training/target/4.php\nd41d8cd98f00b204e9800998ecf8427e  /Users/yuliasukonkina/Desktop/training/target/2.php\nd8e8fca2dc0f896fd7cb4cb0031ba249  /Users/yuliasukonkina/Desktop/training/target/3.php\ndeb7f47cf223b0d29a5bfe65cd2dd987  /Users/yuliasukonkina/Desktop/training/target/b/b2/9.txt\n6781e0baec8d65b9a95a3e879a5098d1  /Users/yuliasukonkina/Desktop/training/target/b/b1/b11/5.hdf5\n6781e0baec8d65b9a95a3e879a5098d1  /Users/yuliasukonkina/Desktop/training/target/b/b1/5.hdf5\n8e013e9e7f10ef9e6bb3c1286519ad46  /Users/yuliasukonkina/Desktop/training/target/b/b1/6.txt\n8d9da4645df8f6b8c60f1092f80a7c46  /Users/yuliasukonkina/Desktop/training/target/1.php\n"
+returncode of subprocess:
+0
+----------------------MD5DEEP finished its work
+----------------------Sorting created SOURCE HASH & TARGET HASH FILES, removing the hash-paths
+----------------------COMPARING SOURCE HASH to TARGET HASH FILES
+Compare = True
+Compare = True
+----------------------TheEnd
+++++++++++++++++++++++Insure the dir is not there, else RSYNC
+('/Users/yuliasukonkina/Desktop/training/target', 'LOOKING FOR THE DIRECTORY')
+>>> building file list ...
+>>>  0 files...31 files to consider
+>>> rsync: send_files failed to open "/Users/yuliasukonkina/Desktop/training/source/b/8.hdf5": Permission denied (13)
+>>> rsync: send_files failed to open "/Users/yuliasukonkina/Desktop/training/source/c/8.hdf5": Permission denied (13)
+>>> 
+>>> sent 613 bytes  received 64 bytes  1.35K bytes/sec
+>>> total size is 18.12K  speedup is 26.76
+>>> rsync error: some files could not be transferred (code 23) at /BuildRoot/Library/Caches/com.apple.xbs/Sources/rsync/rsync-52/rsync/main.c(996) [sender=2.6.9]
+['rsync', '-avzh', '-P', '/Users/yuliasukonkina/Desktop/training/source/', '/Users/yuliasukonkina/Desktop/training/target/']
+----------------------Finished copying
+----------------------Comparing the two directories/subdir function
+diff /Users/yuliasukonkina/Desktop/training/source/ /Users/yuliasukonkina/Desktop/training/target/
+Identical files : ['%5.php', "'5%5 copy.php", '.DS_Store', '1.php', '2.php', '3.php', '4.', '4.php', '4.txt', '5%5.php', '5.log', '5_5.php', '6.txt']
+Common subdirectories : ['a', 'b', 'c']
+
+diff /Users/yuliasukonkina/Desktop/training/source/a /Users/yuliasukonkina/Desktop/training/target/a
+Identical files : ['.DS_Store']
+Common subdirectories : ['a1']
+
+diff /Users/yuliasukonkina/Desktop/training/source/a/a1 /Users/yuliasukonkina/Desktop/training/target/a/a1
+Identical files : ['1.txt', '2.txt', '3.hdf5']
+
+diff /Users/yuliasukonkina/Desktop/training/source/c /Users/yuliasukonkina/Desktop/training/target/c
+Only in /Users/yuliasukonkina/Desktop/training/source/c : ['8.hdf5']
+
+diff /Users/yuliasukonkina/Desktop/training/source/b /Users/yuliasukonkina/Desktop/training/target/b
+Only in /Users/yuliasukonkina/Desktop/training/source/b : ['8.hdf5']
+Common subdirectories : ['b1', 'b2']
+
+diff /Users/yuliasukonkina/Desktop/training/source/b/b1 /Users/yuliasukonkina/Desktop/training/target/b/b1
+Identical files : ['5.hdf5', '6.txt']
+Common subdirectories : ['b11']
+
+diff /Users/yuliasukonkina/Desktop/training/source/b/b1/b11 /Users/yuliasukonkina/Desktop/training/target/b/b1/b11
+Identical files : ['5.hdf5']
+
+diff /Users/yuliasukonkina/Desktop/training/source/b/b2 /Users/yuliasukonkina/Desktop/training/target/b/b2
+Identical files : ['9.txt']
+----------------------Calculating hashes of SOURCE
+standard output of subprocess:
+10e6884a293dedcb125403f38e785840  /Users/yuliasukonkina/Desktop/training/source/.DS_Store
+e6d3301ea2a9b253ce3662b60fa5a04e  /Users/yuliasukonkina/Desktop/training/source/5%5.php
+f26ec4bf83f77214e0a27d34813864b9  /Users/yuliasukonkina/Desktop/training/source/5.log
+e6d3301ea2a9b253ce3662b60fa5a04e  /Users/yuliasukonkina/Desktop/training/source/'5%5 copy.php
+d41d8cd98f00b204e9800998ecf8427e  /Users/yuliasukonkina/Desktop/training/source/4.
+d0e19556beab045aa2c689bb6ea7ff0c  /Users/yuliasukonkina/Desktop/training/source/a/.DS_Store
+6781e0baec8d65b9a95a3e879a5098d1  /Users/yuliasukonkina/Desktop/training/source/a/a1/3.hdf5
+1514e6e20c14b144729bc997003ceba5  /Users/yuliasukonkina/Desktop/training/source/a/a1/2.txt
+1514e6e20c14b144729bc997003ceba5  /Users/yuliasukonkina/Desktop/training/source/a/a1/1.txt
+212cd2792007e2c3f29b1c1360f2e56f  /Users/yuliasukonkina/Desktop/training/source/%5.php
+6bafe6ccfd4708e63a16c64639d91ab3  /Users/yuliasukonkina/Desktop/training/source/4.txt
+1514e6e20c14b144729bc997003ceba5  /Users/yuliasukonkina/Desktop/training/source/6.txt
+9c3f16a06c44b74a0962363a9204af96  /Users/yuliasukonkina/Desktop/training/source/5_5.php
+1dc25fd89e783276757e4ce816e62e76  /Users/yuliasukonkina/Desktop/training/source/4.php
+d41d8cd98f00b204e9800998ecf8427e  /Users/yuliasukonkina/Desktop/training/source/2.php
+d8e8fca2dc0f896fd7cb4cb0031ba249  /Users/yuliasukonkina/Desktop/training/source/3.php
+deb7f47cf223b0d29a5bfe65cd2dd987  /Users/yuliasukonkina/Desktop/training/source/b/b2/9.txt
+6781e0baec8d65b9a95a3e879a5098d1  /Users/yuliasukonkina/Desktop/training/source/b/b1/b11/5.hdf5
+6781e0baec8d65b9a95a3e879a5098d1  /Users/yuliasukonkina/Desktop/training/source/b/b1/5.hdf5
+8e013e9e7f10ef9e6bb3c1286519ad46  /Users/yuliasukonkina/Desktop/training/source/b/b1/6.txt
+8d9da4645df8f6b8c60f1092f80a7c46  /Users/yuliasukonkina/Desktop/training/source/1.php
+
+standard error of subprocess:
+/Users/yuliasukonkina/Desktop/training/source/c/8.hdf5: Permission denied
+/Users/yuliasukonkina/Desktop/training/source/b/8.hdf5: Permission denied
+
+returncode of subprocess:
+0
+----------------------Calculating hashes of TARGET
+standard output of subprocess:
+f26ec4bf83f77214e0a27d34813864b9  /Users/yuliasukonkina/Desktop/training/target/5.log
+10e6884a293dedcb125403f38e785840  /Users/yuliasukonkina/Desktop/training/target/.DS_Store
+e6d3301ea2a9b253ce3662b60fa5a04e  /Users/yuliasukonkina/Desktop/training/target/'5%5 copy.php
+e6d3301ea2a9b253ce3662b60fa5a04e  /Users/yuliasukonkina/Desktop/training/target/5%5.php
+d41d8cd98f00b204e9800998ecf8427e  /Users/yuliasukonkina/Desktop/training/target/4.
+d0e19556beab045aa2c689bb6ea7ff0c  /Users/yuliasukonkina/Desktop/training/target/a/.DS_Store
+6781e0baec8d65b9a95a3e879a5098d1  /Users/yuliasukonkina/Desktop/training/target/a/a1/3.hdf5
+1514e6e20c14b144729bc997003ceba5  /Users/yuliasukonkina/Desktop/training/target/a/a1/2.txt
+1514e6e20c14b144729bc997003ceba5  /Users/yuliasukonkina/Desktop/training/target/a/a1/1.txt
+212cd2792007e2c3f29b1c1360f2e56f  /Users/yuliasukonkina/Desktop/training/target/%5.php
+6bafe6ccfd4708e63a16c64639d91ab3  /Users/yuliasukonkina/Desktop/training/target/4.txt
+1514e6e20c14b144729bc997003ceba5  /Users/yuliasukonkina/Desktop/training/target/6.txt
+9c3f16a06c44b74a0962363a9204af96  /Users/yuliasukonkina/Desktop/training/target/5_5.php
+1dc25fd89e783276757e4ce816e62e76  /Users/yuliasukonkina/Desktop/training/target/4.php
+d41d8cd98f00b204e9800998ecf8427e  /Users/yuliasukonkina/Desktop/training/target/2.php
+d8e8fca2dc0f896fd7cb4cb0031ba249  /Users/yuliasukonkina/Desktop/training/target/3.php
+deb7f47cf223b0d29a5bfe65cd2dd987  /Users/yuliasukonkina/Desktop/training/target/b/b2/9.txt
+6781e0baec8d65b9a95a3e879a5098d1  /Users/yuliasukonkina/Desktop/training/target/b/b1/b11/5.hdf5
+6781e0baec8d65b9a95a3e879a5098d1  /Users/yuliasukonkina/Desktop/training/target/b/b1/5.hdf5
+8e013e9e7f10ef9e6bb3c1286519ad46  /Users/yuliasukonkina/Desktop/training/target/b/b1/6.txt
+8d9da4645df8f6b8c60f1092f80a7c46  /Users/yuliasukonkina/Desktop/training/target/1.php
+
+returncode of subprocess:
+0
+----------------------MD5DEEP finished its work
+----------------------Sorting created SOURCE HASH & TARGET HASH FILES, removing the hash-paths
+----------------------COMPARING SOURCE HASH to TARGET HASH FILES
+Compare = True
+Compare = True
+----------------------TheEnd
